@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#backgroundImage{
+    background-image: url("../img/imagen2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.button{
+    width: 200px;
+    border-radius: 20px;
+}
+#boton1{
+    background: none;
+    color: white;
+    border: solid white 1px;
+}
+#boton2{
+    background: white;
+    color: black;
+    border: none;
+}
+.text{
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+h1{  
+    font-size: 40px !important;
+    padding-bottom: 5%;
+    color: white;
+   
+}
+
+h2{
+    font-size: 20px !important;
+    color: lightgray;
+    
+}
+
+#botones{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-item{
+    border-left: solid lightgray 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
